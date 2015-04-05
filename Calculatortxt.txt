@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fnil\fcharset0 AndaleMono;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs24 \cf0 \cb1 \CocoaLigature0 Kens-MBP:HW6 KenChiu$ javac Calculator.java\
+Kens-MBP:HW6 KenChiu$ java Calculator 4 + 5.5\
+9.5\
+Kens-MBP:HW6 KenChiu$ java Calculator 4 - 5.5\
+-1.5\
+Kens-MBP:HW6 KenChiu$ java Calculator 4 * 5.5\
+22\
+Kens-MBP:HW6 KenChiu$ java Calculator 4 / 5.5\
+0.7272727272727273\
+Kens-MBP:HW6 KenChiu$ java Calculator 4 % 5.5\
+4.0\
+Kens-MBP:HW6 KenChiu$ java Calculator 4 / 0\
+Exception in thread "main" java.lang.IllegalArgumentException: Cannot divide by 0!\
+	at Calculator.main(Calculator.java:25)\
+Kens-MBP:HW6 KenChiu$ java Calculator   / 2\
+Exception in thread "main" java.lang.NumberFormatException: For input string: "/"\
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)\
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)\
+	at java.lang.Double.parseDouble(Double.java:538)\
+	at Calculator.main(Calculator.java:7)\
+Kens-MBP:HW6 KenChiu$ java Calculator 4 t 2\
+Exception in thread "main" java.lang.IllegalArgumentException: Not an operation!\
+	at Calculator.main(Calculator.java:42)\
+Kens-MBP:HW6 KenChiu$ java Calculator 4 +  \
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2\
+	at Calculator.main(Calculator.java:9)\
+}
